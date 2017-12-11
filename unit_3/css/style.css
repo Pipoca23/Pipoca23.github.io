@@ -1,17 +1,24 @@
 body {
-	color: hotpink;
-	background-color: beige;
+	color: blue;
+	background-color: white;
+	font-family: Helvetica, sans-serif;
 
 }
 #slogan {
 	font-style: italic;
+	font-size: 25px;
 
 }
+image {
+	size:  medium;
+
+}
+
 h1 {
 font-weight: bold;
 }
 
-ul {
+li {
 	text-align: center;
 	list-style-type: none;
 }
