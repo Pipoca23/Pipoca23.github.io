@@ -1,23 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Pangolin');
 
 body {
-	color: rgb(0,0,184);
-	background-color: rgb(217,217,255);
+	color: rgb(26,39,120);
+	background-color: rgb(245,245,220);
 	font-family: 'Pangolin', cursive;
-
 }
+
 #slogan {
 	font-style: italic;
 	font-size: 25px;
 }
+
 
 h1 {
 	font-family: 'Pangolin', cursive;
 	font-weight: bold;
 }
 
-li {
+.myimages {
+	width: 300px;
+	height: 200px;
+	column-count: 3;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+ul {
 	font-family: 'Archivo Narrow', sans-serif;
-	text-align: left;
+	font-size: 20px;
+	text-align: center;
 	list-style-type: none;
+	column-count:	7; 
 }
