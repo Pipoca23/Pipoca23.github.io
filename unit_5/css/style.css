@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo');
+
+body {
+	color: rgb(26,39,120);
+	background-color: #FFFFFF;
+	font-family: 'Arimo';
+	margin: 10px;
+}
+
+header {
+	padding: 7px;
+	background-color: #F5DEB3;	
+}
+
+h1 {
+	font-family: 'Arimo';
+	font-style: bold;
+	font-size: 50px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.myimages {
+	width: 300px;
+	height: 200px;
+	column-count: 3;
+}
+
+h2 {
+	padding: 5px;
+	background-color: #F5DEB3;
+	font-size: 30px;
+	text-align: center;
+}
+nav a {
+	font-family: "Atchivo Narrow", sans-serif;
+	font-size: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	column-count: 7;
+	text-align: center;
+}
+
+ul {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	list-style-type: none;
+	column-count:	7; 
+}
+
+footer {
+	padding: 0;
+	background-color: #F5DEB3;
+	font-style: italic;
+	text-align: center;
+}
