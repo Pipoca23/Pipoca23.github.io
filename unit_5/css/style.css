@@ -32,16 +32,9 @@ h2 {
 	font-size: 30px;
 	text-align: center;
 }
-nav a {
-	font-family: "Atchivo Narrow", sans-serif;
-	font-size: 20px;
-	margin-right: 10px;
-	margin-left: 10px;
-	column-count: 7;
-	text-align: center;
-}
 
 ul {
+	border-style: 
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 20px;
 	text-align: center;
