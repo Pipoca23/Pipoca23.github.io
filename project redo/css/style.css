@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+body{
+	color: rgb(0.0.184);
+	background-color: rgb(230,230,255);
+	font-family: 'Pangolin', cursive;
+}
+
+#slogan{
+	font-style: italic;
+	font-size: 25px;
+}

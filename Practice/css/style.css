@@ -1,0 +1,10 @@
+body {
+	color: red;
+	background-color: white;
+	font-family: Helvetica;
+
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
