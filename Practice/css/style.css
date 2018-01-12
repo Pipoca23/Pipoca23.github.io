@@ -2,7 +2,7 @@
 
 body {
 	color: rgb(26,39,120);
-	background-color: #FFED74;
+	background-color: #ffffe6;
 	font-family: 'Arimo';
 	margin: 10px;
 }
@@ -10,7 +10,6 @@ body {
 header {
 	background-color: #F5DEB3;	
 	border: 1px black solid;
-	padding: 20px;
 }
 
 h1 {
@@ -21,8 +20,39 @@ h1 {
 	line-height: 35px;
 }
 
-aside {
-	background-color: #FFC675;
+nav {
+	background-color: #E8C66A;
+}
+
+#two-column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 .myimages {
@@ -32,12 +62,11 @@ aside {
 }
 
 article {
-	background-color: #E89C6C;
+	background-color: #F5DEB3;
+	columns: 3;
+	padding: 5px;
 }
 
-nav {
-	background-color: #E8C66A;
-}
 
 h2 {
 	padding: 5px;
@@ -47,7 +76,7 @@ h2 {
 }
 
 ul {
-	border-style: 
+	border-style: hidden;
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 20px;
 	text-align: center;
@@ -57,7 +86,7 @@ ul {
 
 footer {
 	padding: 0;
-	background-color: #FF957E;
+	background-color: #FFED74;
 	font-style: italic;
 	text-align: center;
 }

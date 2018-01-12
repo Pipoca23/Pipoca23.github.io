@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo');
 
+
 body {
 	color: rgb(26,39,120);
 	background-color: #ffffe6;
@@ -25,6 +26,11 @@ nav {
 	background-color: #E8C66A;
 }
 
+
+aside {
+	background-color: #FFC675;
+}
+
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
@@ -42,30 +48,25 @@ nav {
 #right {
 	background-color: pink;
 	border: 1px black solid;
-	padding: 20px;	
+	padding: 20px;
 	float: right;
-	widows: 62%;
+	width: 62%;
 }
 
-.clearfix: after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
+
 
 .myimages {
 	width: 300px;
 	height: 200px;
-	column-count: 3;
 }
 
-article {
-	background-color: #F5DEB3;
+#photo {
 	column-count: 3;
-	padding: 5px;
+	margin-left: 5px;
+}
+
+nav {
+	background-color: #E8C66A;
 }
 
 h2 {
@@ -75,8 +76,20 @@ h2 {
 	text-align: center;
 }
 
+#three_column {
+	background-color: #F5DEB3;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	column-count: 3;
+}
+
+h3 {
+	font-size: 20px;
+}
+
 ul {
-	border-style: hidden;
+	border-style: 
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 20px;
 	text-align: center;
