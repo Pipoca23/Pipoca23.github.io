@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo');
+
+body {
+	color: rgb(26,39,120);
+	background-color: #ffffe6;
+	font-family: 'Arimo';
+	margin: 10px;
+}
+
+header {
+	background-color: #F5DEB3;	
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'Arimo';
+	font-style: bold;
+	font-size: 50px;
+	text-align: center;
+	line-height: 35px;
+}
+
+nav {
+	background-color: #E8C66A;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;	
+	float: right;
+	widows: 62%;
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.myimages {
+	width: 300px;
+	height: 200px;
+	column-count: 3;
+}
+
+article {
+	background-color: #F5DEB3;
+	column-count: 3;
+	padding: 5px;
+}
+
+h2 {
+	padding: 5px;
+	background-color: #F5DEB3;
+	font-size: 30px;
+	text-align: center;
+}
+
+ul {
+	border-style: hidden;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	list-style-type: none;
+	column-count:	7; 
+}
+
+footer {
+	padding: 0;
+	background-color: #FFED74;
+	font-style: italic;
+	text-align: center;
+}
