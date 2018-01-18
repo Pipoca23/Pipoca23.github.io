@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo');
+
+
+body {
+	color: rgb(00, 77, 153);
+	background-color: #e6f2ff;
+	font-family: 'Arimo';
+	margin: 20px;
+	padding: 5px;
+}
+
+header {
+	background-color: #99ccff;	
+	border: 1px blue dotted;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-family: 'Arimo';
+	font-style: bold;
+	font-size: 50px;
+	text-align: center;
+	line-height: 35px;
+}
+
+nav {
+	background-color: #E8C66A;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+aside {
+	background-color: #FFC675;
+}
+
+.myimages {
+	width: 300px;
+	height: 200px;
+
+}
+
+#photo {
+	column-count: 3;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+nav {
+	background-color: #ffffcc;
+}
+
+ul {
+	border-style: 
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	list-style-type: none;
+	column-count:	7; 
+}
+
+h2 {
+	padding: 5px;
+	background-color: #b3d9ff;
+	font-size: 30px;
+	text-align: center;
+}
+
+#three_column {
+	background-color: #b3d9ff;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	column-count: 3;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+footer {
+	padding: 2px;
+	background-color: #0080ff;
+	font-style: italic;
+	text-align: center;
+	color: #FFF;
+}
