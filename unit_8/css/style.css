@@ -97,10 +97,11 @@ footer {
 @media only screen and (max-width: 652px) {
 	.myimages {
 		width: 90%;
+		padding: none;
 	}
 }
 
-@media only screen and (min-width: 459px) {
+@media only screen and (max-width: 459px) {
 	ul {
 		column-count: 3;
 	}
