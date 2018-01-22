@@ -1,91 +1,102 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo');
-
+:  * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
 	color: rgb(00, 77, 153);
-	background-color: #e6f2ff;
+	background-color: white;
 	font-family: 'Arimo';
-	margin: 20px;
-	padding: 5px;
+	margin: 2em;	
 }
 
 header {
 	background-color: #99ccff;	
 	border: 1px blue dotted;
-	padding: 20px;
-	margin-bottom: 10px;
+	padding: .5em 0;
+	margin: .1em 0 .1em 0;
+	width: 100%;
 }
 
 h1 {
 	font-family: 'Arimo';
 	font-style: bold;
-	font-size: 50px;
+	font-size: 2.5em;
 	text-align: center;
-	line-height: 35px;
+	line-height: 1em;	
 }
 
 nav {
-	background-color: #E8C66A;
-	padding-top: 5px;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-
-}
-
-
-aside {
-	background-color: #FFC675;
+	background-color: #ffffcc;
+	padding: 1em 0 1em 0;
+	margin: .2em 0 .2em 0;
+	width: 100%;
 }
 
 .myimages {
-	width: 300px;
-	height: 200px;
-
+	width: 30%;
+	height: 20%;
+	border: 1px white solid;
+	margin-left: .5em;
+	padding: .75em;
 }
 
 #photo {
-	column-count: 3;
 	margin-left: 5px;
 	margin-top: 10px;
 	padding-top: 5px;
 }
 
-nav {
-	background-color: #ffffcc;
-}
-
 ul {
-	border-style: 
 	font-family: 'Archivo Narrow', sans-serif;
-	font-size: 20px;
+	font-size: 1em;
 	text-align: center;
 	list-style-type: none;
-	column-count:	7; 
+	column-count: 6; 
+}
+
+li {
+	padding: .2em;
 }
 
 h2 {
-	padding: 5px;
-	background-color: #b3d9ff;
-	font-size: 30px;
+	padding: .2em;
+	margin: .2em 0 .2em 0;
+	background-color: #0080ff;
+	color: #FFF;
+	font-size: 2em;
 	text-align: center;
+	width: 99%;
 }
 
-#three_column {
-	background-color: #b3d9ff;
-	padding: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+div {
 	column-count: 3;
+	color: black;
 }
 
-h3 {
-	font-size: 20px;
+#three_column a {
+	background-color: #b3d9ff;
+	padding: 2%;
+	display: block;	
+	box-shadow: 1px 1px 3px rgba(0,0,0);
+	margin-bottom: .5em;
+	text-decoration: none;
+	color: rgb(00, 77, 153);
+}
+
+#text {
+	margin: .1em 0 .5em 0;
+	padding: .2em;
 }
 
 footer {
-	padding: 2px;
-	background-color: #0080ff;
-	font-style: italic;
-	text-align: center;
-	color: #FFF;
+	margin-top: 1em;
+	background-color: #99ccff;
+	text-align: center;	
+	padding: .1em;
 }
+
+@media only screen and (max-width: 545px) {
+	ul {
+		font-size: .75em;
+	}
+}
+
