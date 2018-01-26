@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Arimo');
+:  * { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	color: rgb(00, 77, 153);
+	background-color: white;
+	font-family: 'Arimo';
+	margin: 2em;	
+}
+
+header {
+	background-color: #99ccff;	
+	border: 1px blue dotted;
+	padding: .5em 0;
+	margin: .1em 0 .1em 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Arimo';
+	font-style: bold;
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 1em;	
+}
+
+div {
+	column-count: 3;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #e9e9e9;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.topnav a.active {
+	background-color: #e6f3ff;
+}
+
+.topnav .search-container {
+	float: right;
+}
+
+.topnav input[type=text] {
+	float: right;
+	padding: .6em;
+	border: none;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	font-size: 1em;
+}
+
+.topnav .search-container button {
+	float: none;
+	padding: .6em;
+	border: none;
+	margin-top:  .5em;
+	margin-bottom: .5em;
+	margin-right: 1em;
+	font-size: 1em;
+	background: #ddd;
+	cursor: pointer;
+}
+
+.midnav {
+	background-color: #ffffcc;
+	margin: .1em 0 .1em 0;
+	width: 100%;
+}
+
+ul { 
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.2em;
+	text-align: left;
+	list-style-type: none;
+	float: none;
+}
+
+li {
+	padding: .2em;
+	margin-left: .4em;	
+}
+
+h2 {
+	padding: .2em;
+	margin: .2em 0 .2em 0;
+	background-color: #0080ff;
+	color: #FFF;
+	font-size: 2em;
+	text-align: center;
+	width: 99%;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 2em;
+	color: rgb(00, 77, 153);
+}
+
+img {
+	float: left;
+	margin: 0px 0px 15px 20px;
+}
+
+.myimages {
+	width: 25%;
+	height: auto;
+	margin-left: .5em;
+	padding: .75em;
+}
+
+#photo {
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+	padding-top: 5px;
+}
+
+div {
+	clear:left;
+}
+
+#three_column a {
+	background-color: #b3d9ff;
+	padding: 2%;
+	display: block;	
+	box-shadow: 1px 1px 3px rgba(0,0,0);
+	margin-bottom: .5em;
+	text-decoration: none;
+	color: rgb(00, 77, 153);
+}
+
+
+footer {
+	margin-top: 1em;
+	background-color: #99ccff;
+	text-align: center;	
+	padding: .1em;
+}
+
