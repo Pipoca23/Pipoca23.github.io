@@ -12,7 +12,7 @@ header {
 	background-color: #99ccff;	
 	border: 1px blue dotted;
 	padding: .5em 0;
-	margin: .1em 0 .1em 0;
+	margin: .1em 0;
 	width: 100%;
 }
 
@@ -28,41 +28,30 @@ div {
 	column-count: 3;
 }
 
-.topnav {
+.topnav  {
 	overflow: hidden;
-	background-color: #e9e9e9;
-}
-
-.topnav a {
+	font-size: 1em;
 	float: left;
 	display: block;
 	color: black;
 	text-align: center;
-	padding: 1em 1em;
+	padding-left: .5em;
+	margin: .1em 0;
 	text-decoration: none;
-	font-size: 1em;
-}
-
-.topnav a.active {
-	background-color: #e6f3ff;
-}
-
-.topnav .search-container {
-	float: right;
 }
 
 .topnav input[type=text] {
 	float: right;
-	padding: .6em;
+	padding: .8em;
 	border: none;
 	margin-top: .5em;
 	margin-bottom: .5em;
 	font-size: 1em;
+	background-color: #e6f3ff;
 }
 
 .topnav .search-container button {
-	float: none;
-	padding: .6em;
+	padding: .8em;
 	border: none;
 	margin-top:  .5em;
 	margin-bottom: .5em;
@@ -119,11 +108,12 @@ img {
 	padding: .75em;
 }
 
-#photo {
+#spotlight {
 	margin-left: 5px;
 	margin-top: 10px;
 	margin-right: 5px;
 	padding-top: 5px;
+	font-size: 1em;
 }
 
 div {
@@ -148,14 +138,37 @@ footer {
 	padding: .1em;
 }
 
-@media only screen and (max-width: 777px) {
-	.topnav .search-container {
-		clear:left;
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 1.5em;
 	}
-	.topnav input[type=text] {
-		clear:left;
+
+	h2 {
+		font-size: .8em;
 	}
+
+	#spotlight {
+		font-size: .8em;
+	}
+
 	h3 {
-		font-size: auto;
+		font-size: 1.25em;
 	}
 }
+
+@media only screen and (max-width: 350px) {
+	h1 {
+		font-size: .75em;
+	}
+
+	.topnav {
+		font-size: 1em;
+		height: 3em;
+	}
+
+	.topnav .search-container button {
+		font-size: 1em;
+		display: none;
+	}	
+
+	}
