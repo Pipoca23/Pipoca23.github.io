@@ -119,11 +119,12 @@ img {
 	padding: .75em;
 }
 
-#photo {
+#spotlight {
 	margin-left: 5px;
 	margin-top: 10px;
 	margin-right: 5px;
 	padding-top: 5px;
+	font-size: 1em;
 }
 
 div {
@@ -148,11 +149,11 @@ footer {
 	padding: .1em;
 }
 
-@media only screen and (max-width: 766px) {
-	.topnav .search-container {
-		float: none;
-}
-	.topnav input[type=text] {
-	float: none;
+@media only screen and (max-width: 600px) {
+	#spotlight {
+		font-size: .8em;
+	}
+	h3 {
+		font-size: 1.25em;
 	}
 }

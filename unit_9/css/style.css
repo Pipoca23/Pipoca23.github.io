@@ -148,3 +148,14 @@ footer {
 	padding: .1em;
 }
 
+@media only screen and (max-width: 777px) {
+	.topnav .search-container {
+		clear:left;
+	}
+	.topnav input[type=text] {
+		clear:left;
+	}
+	h3 {
+		font-size: auto;
+	}
+}
