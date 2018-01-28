@@ -173,6 +173,6 @@ footer {
 
 @media only screen and (max-width: 325px) {
 	h1 {
-		font-size: 1em;
+		font-size: .75em;
 	}
 }
