@@ -8,10 +8,13 @@ body {
 	margin: 2em;	
 }
 
+.wrapper {
+	max-width: 1400px;
+}
+
 header {
 	background-color: #99ccff;	
 	border: 1px blue dotted;
-	padding: .5em 0;
 	margin: .1em 0;
 	width: 100%;
 }
@@ -24,11 +27,7 @@ h1 {
 	line-height: 1em;	
 }
 
-div {
-	column-count: 3;
-}
-
-.topnav  {
+.topnav {
 	overflow: hidden;
 	font-size: 1em;
 	float: left;
@@ -41,11 +40,10 @@ div {
 }
 
 .topnav input[type=text] {
-	float: right;
+	float: left;
 	padding: .8em;
 	border: none;
-	margin-top: .5em;
-	margin-bottom: .5em;
+	margin: .5em 0 .5em 0;
 	font-size: 1em;
 	background-color: #e6f3ff;
 }
@@ -53,9 +51,7 @@ div {
 .topnav .search-container button {
 	padding: .8em;
 	border: none;
-	margin-top:  .5em;
-	margin-bottom: .5em;
-	margin-right: 1em;
+	margin: .5em 1em .5em 0;
 	font-size: 1em;
 	background: #ddd;
 	cursor: pointer;
@@ -63,8 +59,8 @@ div {
 
 .midnav {
 	background-color: #ffffcc;
-	margin: .1em 0 .1em 0;
 	width: 100%;
+	column-count: 3;
 }
 
 ul { 
@@ -87,7 +83,7 @@ h2 {
 	color: #FFF;
 	font-size: 2em;
 	text-align: center;
-	width: 99%;
+	width: 100%;
 }
 
 h3 {
@@ -104,20 +100,25 @@ img {
 .myimages {
 	width: 25%;
 	height: auto;
-	margin-left: .5em;
-	padding: .75em;
+	float: left;
+	margin:.5em 1em .5em;
 }
 
 #spotlight {
 	margin-left: 5px;
-	margin-top: 10px;
+	margin-top: 1px;
 	margin-right: 5px;
-	padding-top: 5px;
+	padding-top: 1px;
 	font-size: 1em;
 }
 
-div {
-	clear:left;
+ul.a {
+	font-family: 'Arimo';
+	font-size: 1em;
+}
+
+#three_column {
+	column-count: 3;
 }
 
 #three_column a {
@@ -156,19 +157,47 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 380px) {
 	h1 {
-		font-size: .75em;
+		font-size: 1em;
 	}
 
 	.topnav {
 		font-size: 1em;
-		height: 3em;
+		height: auto;
 	}
 
 	.topnav .search-container button {
 		font-size: 1em;
 		display: none;
+
 	}	
 
+	.midnav ul {
+		font-size: 1em;
+		padding: 0;
+		}
+
+	#spotlight img {
+		width: 100%;
+		margin-bottom: 1em;
 	}
+
+	h2 {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+	p {
+		font-size: 1.2em;
+	}
+	ul.a {
+		font-size: 1.1em;
+	}
+	footer {
+		font-size: .75em;
+	}
+}
